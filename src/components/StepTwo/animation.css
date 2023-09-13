@@ -1,0 +1,46 @@
+.moveLeft {
+  animation-name: moveleft;
+  animation-duration: 0.7s;
+  animation-fill-mode: both;
+}
+
+@keyframes moveleft {
+  0% {
+    transform: translate(30%, -6.5px);
+  }
+  100% {
+    transform: translate(-135%, -6.5px);
+  }
+}
+
+.moveRight {
+  animation-name: fadeOutRight;
+  animation-duration: 0.7s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeOutRight {
+  0% {
+    transform: translate(-100%, -6.5px);
+  }
+  100% {
+    transform: translate(35%, -6.5px);
+  }
+}
+
+/* ============== animation fade ============== */
+
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

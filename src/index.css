@@ -1,0 +1,32 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.displayNone {
+  display: none;
+}
+
+.aside__active-item {
+  background-color: var(--Light-blue);
+  border: 1px solid var(--Light-blue) !important;
+  color: var(--Marine-blue) !important;
+}
+
+/* =========== global animation =========== */
+
+.fadeInRight {
+  animation-name: fadeInRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
