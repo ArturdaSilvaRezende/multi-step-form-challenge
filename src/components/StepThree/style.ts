@@ -70,6 +70,10 @@ export const StepThreeFigure = styled.figure<Props>`
       margin-right: 25px;
       text-align: center;
       width: 20px;
+
+      img {
+        margin-bottom: 2.5px;
+      }
     }
 
     .stepthree__card-description {
@@ -97,7 +101,7 @@ export const StepThreeFigure = styled.figure<Props>`
         margin-right: 15px;
 
         img {
-          margin-bottom: 2.5px;
+          margin-bottom: 2.3px;
         }
       }
 
