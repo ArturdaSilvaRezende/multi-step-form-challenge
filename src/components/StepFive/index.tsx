@@ -1,10 +1,11 @@
-import usePlans from "../../hooks/usePlans";
+import { useSelector } from "react-redux";
+import { RootState } from "../../redux/root-reducer";
 import GlobalContainer from "../../assets/style/GlobalContainer";
 import IconThankYou from "../../assets/images/icon-thank-you.svg";
 import * as C from "./style";
 
 const StepFive = () => {
-  const { currentStep } = usePlans();
+  const { currentStep } = useSelector((state: RootState) => state.currentStep);
 
   return (
     <C.StepFive

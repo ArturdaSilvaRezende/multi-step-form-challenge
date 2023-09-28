@@ -1,8 +1,9 @@
-import usePlans from "../../hooks/usePlans";
+import { useSelector } from "react-redux";
+import { RootState } from "../../redux/root-reducer";
 import * as C from "./style";
 
 const Aside = () => {
-  const { currentStep } = usePlans();
+  const { currentStep } = useSelector((state: RootState) => state.currentStep);
 
   return (
     <C.Aside>
